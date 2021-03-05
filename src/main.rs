@@ -19,7 +19,7 @@ fn main() {
     let mut out = count.iter().collect::<Vec<(_, _)>>();
     out.sort();
     for (k, v) in out {
-        println!("{:2}: {}", k, v);
+        println!("{:4}: {}", k, v);
     }
 }
 
